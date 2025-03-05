@@ -69,5 +69,4 @@ if st.button("Generate Design"):
     else:
         st.warning("Please fill in all the fields.")
 
-    else:
-        st.warning("Please fill in all the fields.")
+
