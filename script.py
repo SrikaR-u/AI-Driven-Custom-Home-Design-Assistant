@@ -70,7 +70,7 @@ if st.button("Generate Design"):
 
         if image_url:
             st.image(image_url, caption="Design inspiration from Lexica.art")
-        else:
+        elif:
             st.warning("No relevant images found on Lexica.art.")
         else:
             st.warning("Please fill in all the fields.")
