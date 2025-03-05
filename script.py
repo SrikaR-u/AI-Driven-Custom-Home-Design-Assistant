@@ -1,5 +1,5 @@
 # AI-Driven-Custom-Home-Design-Assistant
-pip install google-generativeai
+
 import streamlit as st
 import google.generativeai as genai
 import requests  # Import requests module for fetching images
