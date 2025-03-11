@@ -36,7 +36,7 @@ def generate_design_idea(style, size, rooms):
 
 # Function to fetch an image from Lexica
 def fetch_image_from_lexica(style):
-    lexica_url = f"stabilityai/stable-diffusion-3.5-large={style}"
+    lexica_url = f"https://lexica.art/api/v1/search?q={style}"
     response = requests.get(lexica_url)
     
     if response.status_code == 200:
